@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    background-color: #5172e7;
+}
+
+p {
+    width: 120px;
+}
+
+.site__transletor {
+    color: #fff;
+    text-align: center;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    width: 15px;
+    padding: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.new__box {
+    width: 15px;
+    padding: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: black;
+}
+
+.transletor {
+    font-size: 83px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    animation: animate 2s ease-in-out infinite;
+}
+
+.site__uzb {
+    margin-left: -85px;
+}
+
+.site__button {
+    margin-left: -55px;
+    width: 130px;
+    margin-top: 20px;
+    background-color: #03a9f4;
+    outline: none;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.site__button:hover {
+    color: #fff;
+    transition: ease-out 1s;
+    box-shadow: inset 30px 30px 30px 50px black;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0%,100%
+    {
+        clip-path: polygon(1% 39%, 22% 39%, 37% 37%, 52% 30%, 70% 29%, 86% 29%, 100% 30%, 100% 100%, 0 100%);
+    }
+    
+    50%
+    {
+        clip-path: polygon(0 30%, 20% 34%, 37% 37%, 57% 42%, 75% 43%, 87% 45%, 100% 46%, 100% 100%, 0 100%);
+    }
+}
